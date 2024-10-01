@@ -71,6 +71,9 @@ if __name__ == '__main__':
     file_path = sys.argv[1]
     # file_path = '../../class/messages.cpp'
   
+    # 需要提前安装 LLVM ，并在此指定 "libclang.dll" 路径
+    # 详见：https://github.com/llvm/llvm-project/releases/latest
+    # 下载并安装其中的 "LLVM-x.y.z-win64.exe"
     clang.cindex.Config.set_library_file('D:/software/LLVM/bin/libclang.dll')
     
     class_names, _ = extract_class_function_names_cpp(file_path)
