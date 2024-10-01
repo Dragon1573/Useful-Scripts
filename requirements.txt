@@ -1,0 +1,14 @@
+# cpp源代码文件简易解析脚本，可提取函数
+# ParseCpp.py
+clang==17.0.6
+
+# 腾讯文档功能性脚本
+# AutoTencent.py TestTencent.py
+selenium==4.25.0
+
+# 细致拆解，pytorch实现自注意力、多头、交叉、因果（掩码）注意力
+# SelfAttention.ipynb
+# 为保持兼容性，此处使用 Pytorch CPU 版本
+torch==2.4.1
+torchaudio==2.4.1
+torchvision==0.19.1
